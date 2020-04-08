@@ -1,5 +1,10 @@
 # laravel7-sqlite-admin
 ## Quick boilerplate: Laravel 7 + SQLite + Auth
+To do: 
+* Create .env file from .env.example, remove lines DB_* (lines 9-14), and instead add line: DB_CONNECTION=sqlite
+* Run from the root of your application the command.: php artisan key:generate
+* This command should list the packages that are being downloaded and installed.: composer install --no-scripts
+* This will create the autoload.php file that Laravel will use.: php artisan optimize
 
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
